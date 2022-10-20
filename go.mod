@@ -3,6 +3,7 @@ module github.com/FISCO-BCOS/go-sdk
 go 1.16
 
 replace (
+	github.com/FISCO-BCOS/bcos-c-sdk => github.com/dinghongchao/bcos-c-sdk v3.0.1-fork1+incompatible
 	golang.org/x/net => github.com/golang/net v0.0.0-20190415214537-1da14a5a36f2
 	golang.org/x/sync => github.com/golang/sync v0.0.0-20190412183630-56d357773e84
 )
